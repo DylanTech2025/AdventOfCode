@@ -13,13 +13,13 @@ def parse(data):
 
 #---- Part 1 ------------------------------------
 
-def part1():
+def part1(data):
     pass
 
 
 #---- Part 1 ------------------------------------
 
-def part2():
+def part2(data):
     pass
 
 
