@@ -1,7 +1,7 @@
 import sys
 import requests
 
-YEAR            = 2024
+YEAR            = 2025
 COOKIE_FILE     = 'cookie.txt'
 INPUT_DIR       = 'solns/'
 
