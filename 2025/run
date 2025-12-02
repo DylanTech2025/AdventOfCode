@@ -15,22 +15,22 @@ fi
 DAY=$1
 
 # create file for solving the problem
-SOLN_FILE="solns/day$DAY.py"
+SRC_FILE="src/day$DAY.py"
 
-if [ ! -f "$SOLN_FILE" ]; then
-    echo "couldn't find soln file: $SOLN_FILE"
+if [ ! -f "$SRC_FILE" ]; then
+    echo "couldn't find solutionn file: $SRC_FILE"
     exit 1
 fi
 
 
 # download input if not found
-INPUT_FILE="solns/$DAY.in"
+INPUT_FILE="src/$DAY.in"
 
 if [ ! -f $INPUT_FILE ]; then
     echo "couldn't find input file: $INPUT_FILE"
 fi
 
-python3 $SOLN_FILE
+python3 $SRC_FILE
 
 
 
