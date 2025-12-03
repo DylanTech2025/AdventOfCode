@@ -20,7 +20,7 @@ fi
 # create file for solving the problem
 if [ ! -f "$SRC_FILE" ]; then
     echo "creating" $SRC_FILE
-    cp solns/template.py $SRC_FILE
+    cp src/template.py $SRC_FILE
     DID_SOMETHING=1
 fi
 

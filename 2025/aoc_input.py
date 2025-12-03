@@ -3,7 +3,7 @@ import requests
 
 YEAR            = 2025
 COOKIE_FILE     = 'cookie.txt'
-INPUT_DIR       = 'solns/'
+INPUT_DIR       = 'src/'
 
 def load_cookie():
     with open(COOKIE_FILE, 'r') as infile:
